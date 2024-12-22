@@ -1,0 +1,89 @@
+body {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+
+div#opi {
+    background-color: red;
+    color: white;
+    font-size: 29px;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    left: 0px;
+    top: 150px;
+    z-index: 2;
+    padding: 25px;
+
+}
+
+div#opi h2 {
+    margin-top: 0;
+    color: aliceblue;
+}
+
+div#opi h5 {
+    margin-top: 15px;
+
+}
+
+#ghj {
+    max-width: 100%;
+    display: block;
+    z-index: -1;
+    list-style: none;
+    left: 250px;
+    position: relative;
+    top: -250px;
+    background-image: url(../img/Yandex_main_office.jpg);
+    width: 900px;
+    height: 600px;
+}
+
+div#mouche {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 75px;
+    height: 350px;
+    padding: 0px 150px;
+    position: relative;
+    bottom: 350px;
+    z-index: 2
+}
+#mouche a{
+    background-color: aliceblue;
+    padding: 25px;
+}
+h3 {
+    color: black;
+}
+h2 {
+    color: black;
+    font-family: "Playwrite AU SA Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 130px;
+    font-style: normal;
+}
+#ofice {
+    position: relative;
+    top: 25px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
